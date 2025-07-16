@@ -157,9 +157,11 @@ nav ul li a.active {
 }
 
 .hero-photo {
+    clip-path: rect(5px 500px 500px 5px round 20%);
     width: 500px; /* Adjusted size slightly */
     height: 500px; /* Adjusted size slightly */
     object-fit: cover;
+
     /* border-radius: 50%; /* Removed to make it rectangular */
     /* border: 5px solid var(--highlight-color); /* Add a vibrant border */
     /*box-shadow: 0 0 20px rgba(233, 69, 96, 0.5); Glowing effect */
@@ -167,7 +169,7 @@ nav ul li a.active {
 }
 
 .hero-photo:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(110%); /* Slight zoom on hover */
 }
 
 /* Personality Insight Section */
